@@ -1,0 +1,97 @@
+# Rhino
+newmtl A_TileQuilt___11x50.5 (1)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd A_TileQuilt___11x50.5.jpg
+newmtl B_TileQuilt___11x108.5 (1)
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd B_TileQuilt___11x108.5.jpg
+newmtl C_TileQuilt___11x85.75_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd C_TileQuilt___11x85.75_page-0001.jpg
+newmtl D_TileQuilt___11x130.5_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd D_TileQuilt___11x130.5_page-0001.jpg
+newmtl E_TileQuilt___11x99_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd E_TileQuilt___11x99_page-0001.jpg
+newmtl F_TileQuilt___11x28.5_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd F_TileQuilt___11x28.5_page-0001.jpg
+newmtl G_TileQuilt___11x28.5_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd G_TileQuilt___11x28.5_page-0001.jpg
+newmtl H_TileQuilt___11x174_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd H_TileQuilt___11x174_page-0001.jpg
+newmtl I_TileQuilt___11x180_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd I_TileQuilt___11x180_page-0001.jpg
+newmtl J_TileQuilt___11x24_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd J_TileQuilt___11x24_page-0001.jpg
+newmtl K_TileQuilt___11x79.5_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd K_TileQuilt___11x79.5_page-0001.jpg
+newmtl L_TileQuilt___11x124_page-0001
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd L_TileQuilt___11x124_page-0001.jpg
