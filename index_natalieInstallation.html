@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Situated Archives - Apollo Media Center</title>
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+    </head>
+
+    <body>
+        <a-scene vr-mode-ui='enabled: false'
+                 arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false'
+                 renderer='antialias: true; alpha: true'>
+
+            <!--            <a-assets timeout="10000">-->
+            <a-assets>
+
+                <a-asset-item id="arQuilt_all-obj" src="assets/apolloInstallation/arQuilt_all.obj"></a-asset-item>
+                <a-asset-item id="arQuilt_all-mtl" src="assets/apolloInstallation/arQuilt_all.mtl"> </a-asset-item>
+
+            </a-assets>
+
+
+
+            <!------------------------------------------------------------------>
+
+            <!--object for troubleshooting / testing-->
+            <!--Place a box at a specific gps location: 42.44462792252055, -76.50417131252031-->
+            <a-camera look-controls-enabled='false' 
+                      arjs-device-orientation-controls='smoothingFactor: 0.1'
+                      gps-new-camera='gpsMinDistance: 5'>
+            </a-camera>
+
+
+
+            <a-entity material='color: red'
+                      geometry='primitive: box'
+                      gps-new-entity-place="latitude: 42.44460; longitude: -76.50416"
+                      scale="30 30 30">
+            </a-entity>
+
+            <a-entity material='color: blue'
+                      geometry='primitive: box'
+                      position='0 0 -15'
+                      scale="2 2 2">
+            </a-entity>
+
+            <!---------------------------------------------------------->
+
+
+            <a-text
+                    value="This content will always face you."
+                    look-at="[gps-camera]"
+                    scale="50 50 50"
+                    gps-entity-place="latitude: <add-your-latitude>; longitude: <add-your-longitude>;"
+                    >
+            </a-text>
+
+
+            <a-text
+                    value="This content will always face you."
+                    look-at="[gps-camera]"
+                    scale="50 50 50"
+                    gps-entity-place="latitude: 42.925313967504756; longitude: -78.84711827560466;"
+                    >
+            </a-text>
+
+
+            <!--                                  gps-new-entity-place="latitude: 42.925313967504756; longitude: -78.84711827560466"-->
+
+            <a-entity scale="1 1 1"
+                      gps-new-entity-place="latitude: 42.925313967504756; longitude: -78.84711827560466"
+                      obj-model="obj: #arQuilt_all-obj; mtl: #arQuilt_all-mtl"
+                      rotation="0 0 0"
+
+                      >
+            </a-entity>
+
+            <a-entity scale="1 1 1"
+                      gps-new-entity-place="latitude: 42.911870; longitude: -78.854490"
+                      obj-model="obj: #arQuilt_all-obj; mtl: #arQuilt_all-mtl"
+                      rotation="0 0 0"
+
+                      >
+            </a-entity>
+
+
+            <!-- Basic box to signal location of image-->
+            <a-box color="black"
+                   depth="10"
+                   height="10"
+                   width="10"
+                   position='15 60 -15'
+                   animation="property: material.opacity; from: 0.8; to: 0.1; loop: true; dir: alternate; dur: 5000"
+                   >
+            </a-box>
+
+        </a-scene>
+    </body>
+</html>
